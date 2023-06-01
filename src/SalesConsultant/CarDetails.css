@@ -1,0 +1,17 @@
+.cardBox {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.my-data {
+  background-color: rgba(255, 255, 255, 0.589);
+  border: 0 0 2px 0 solid rgb(99, 149, 255);
+  border-radius: 5px;
+}
+
+.myinput {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  color: brown;
+}

@@ -1,0 +1,187 @@
+/* logo red color #e43f0fff */
+
+@media (max-width: 428px) {
+  .nav_card_icon {
+    padding-left: 14vw !important;
+    padding-right: 13vw !important;
+  }
+  .nav_card {
+    padding-left: 8vw !important;
+  }
+}
+
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+.menu-btn {
+  width: 100vw;
+}
+
+.menu-btn label i {
+  font-size: xx-large;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: rgb(61, 61, 61);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.screen {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  overflow-y: scroll;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  /* padding-left: 250px; */
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 1;
+  background: #eeeeee; /* fallback for old browsers */
+}
+
+.grad1 {
+  background: rgb(255, 166, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 166, 36, 1) 0%,
+    rgba(253, 153, 18, 1) 50%,
+    rgba(251, 141, 1, 1) 100%
+  );
+}
+
+.grad2 {
+  background: rgb(68, 161, 72);
+  background: linear-gradient(
+    90deg,
+    rgba(68, 161, 72, 1) 0%,
+    rgba(84, 173, 88, 1) 50%,
+    rgba(87, 175, 91, 1) 100%
+  );
+}
+
+.grad3 {
+  background: rgb(229, 58, 54);
+  background: linear-gradient(
+    90deg,
+    rgba(229, 58, 54, 1) 0%,
+    rgba(234, 71, 67, 1) 50%,
+    rgba(239, 82, 79, 1) 100%
+  );
+}
+
+.grad4 {
+  background: rgb(1, 173, 194);
+  background: linear-gradient(
+    90deg,
+    rgba(1, 173, 194, 1) 0%,
+    rgba(24, 188, 209, 1) 50%,
+    rgba(36, 196, 216, 1) 100%
+  );
+}
+
+.my-shadow {
+  box-shadow: 0px 0px 8px 0px rgb(211, 211, 211);
+}
+
+.myHrTag {
+  width: 100%;
+  border-bottom: 1px solid #cacaca;
+}
+
+.text-grey {
+  color: gray;
+}
+.text-dark-grey {
+  color: rgb(87, 87, 87);
+}
+
+.main-content {
+  height: 100% !important;
+  min-height: 100vh !important;
+}
+
+/* shadow */
+.shad-1 {
+  box-shadow: 0px -21px 29px 0px #000 inset;
+}
+
+/* input box .............................................. */
+/* .form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 100%;
+}
+.form__field {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  font-size: 1rem;
+  color: rgb(68, 68, 68);
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  letter-spacing: 1px;
+}
+.form__field::placeholder {
+  color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 1rem;
+  cursor: text;
+  top: 20px;
+  letter-spacing: 1px;
+}
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #4e4e4e;
+}
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #e43f0fff, rgb(223, 97, 59));
+  border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #e43f0fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+/* reset input 
+.form__field:required,
+.form__field:invalid {
+  box-shadow: none;
+} */

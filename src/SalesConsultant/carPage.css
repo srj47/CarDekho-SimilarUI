@@ -1,0 +1,10 @@
+.carPageBox {
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.car-select-icon {
+  position: absolute;
+  bottom: 35px;
+}

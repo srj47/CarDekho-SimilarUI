@@ -1,0 +1,14 @@
+.details {
+  border: 1px;
+  border-radius: 5%;
+}
+.font {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(233, 31, 31);
+}
+
+.rs-sign {
+  font-size: "10px";
+  color: gray;
+}

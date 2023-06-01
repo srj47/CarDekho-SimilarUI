@@ -1,0 +1,23 @@
+// import React, { useState } from "react";
+
+// const LoginAccess = () => {
+//   const [token, setToken] = useState("");
+//   const query = new URLSearchParams({
+//     username: "admin@finman.app",
+//     password: "toor",
+//   });
+//   console.log(username);
+//   fetch("https://finmanlocal.herokuapp.com/api/token", {
+//     method: "POST",
+//     headers: {
+//       "Content-Type": "application/x-www-form-urlencoded",
+//     },
+//     // mode: 'no-cors',
+//     body: query,
+//   })
+//     .then((response) => response.json())
+//     .then((json) => {
+//       console.log(json);
+//       setToken(json.access_token);
+//     });
+// };

@@ -1,0 +1,41 @@
+@media (max-width: 428px) {
+}
+
+.SideBarHidden {
+  animation-name: SideBarHidden;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes SideBarHidden {
+  from {
+    left: 0;
+  }
+  to {
+    left: -230px;
+  }
+}
+
+.SideBarVisible {
+  animation-name: SideBarVisible;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes SideBarVisible {
+  from {
+    left: -230px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+.img_bg {
+  position: fixed;
+  height: 100vh;
+  width: 230px;
+  background-image: url("../img/car4.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  left: -230px;
+}
