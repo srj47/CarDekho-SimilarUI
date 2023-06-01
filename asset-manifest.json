@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/CarDekho-SimilarUI/static/css/main.f405cb4f.css",
+    "main.js": "/CarDekho-SimilarUI/static/js/main.fb24be11.js",
+    "static/media/material-dashboard.css.map": "/CarDekho-SimilarUI/static/media/material-dashboard.css.9e6e477faa04ed93b558.map",
+    "static/media/kotakLogo.jpg": "/CarDekho-SimilarUI/static/media/kotakLogo.9ab77d0a073659767550.jpg",
+    "static/media/audiLogo.png": "/CarDekho-SimilarUI/static/media/audiLogo.97cb0967e7928704b5f0.png",
+    "static/media/nucleo-icons.svg": "/CarDekho-SimilarUI/static/media/nucleo-icons.01ebecaf50461162d4bc.svg",
+    "static/media/iciciLogo.jpg": "/CarDekho-SimilarUI/static/media/iciciLogo.31f337349002a19fbd7a.jpg",
+    "static/media/car3.jpeg": "/CarDekho-SimilarUI/static/media/car3.a57dd3945fe3833756ef.jpeg",
+    "static/media/car6.jpg": "/CarDekho-SimilarUI/static/media/car6.2af90a02a00728db4234.jpg",
+    "static/media/AxisLogo.jpg": "/CarDekho-SimilarUI/static/media/AxisLogo.0d68baf22bb9e383864d.jpg",
+    "static/media/sbiLogo.jpg": "/CarDekho-SimilarUI/static/media/sbiLogo.b367755018aa55551404.jpg",
+    "static/media/nucleo-icons.eot": "/CarDekho-SimilarUI/static/media/nucleo-icons.19abb5402a664606b14c.eot",
+    "static/media/nucleo-icons.ttf": "/CarDekho-SimilarUI/static/media/nucleo-icons.d6a66724e7a7bf1bba65.ttf",
+    "static/media/nucleo-icons.woff": "/CarDekho-SimilarUI/static/media/nucleo-icons.c82c9b7c40130b7116d3.woff",
+    "static/media/nucleo-icons.woff2": "/CarDekho-SimilarUI/static/media/nucleo-icons.cba267483aa6a7cb6e33.woff2",
+    "index.html": "/CarDekho-SimilarUI/index.html",
+    "main.f405cb4f.css.map": "/CarDekho-SimilarUI/static/css/main.f405cb4f.css.map",
+    "main.fb24be11.js.map": "/CarDekho-SimilarUI/static/js/main.fb24be11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f405cb4f.css",
+    "static/js/main.fb24be11.js"
+  ]
+}
