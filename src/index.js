@@ -25,7 +25,7 @@ import CuratedOffer from "./FE/CuratedOffer";
 
 ReactDOM.render(
   <>
-    <Router basename="/">
+    <Router basename={process.env.PUBLIC_URL}>
       <AuthProvider>
         <Routes>
           <Route path="/" element={<Login />} />
